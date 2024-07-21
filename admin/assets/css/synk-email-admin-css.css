@@ -1,0 +1,252 @@
+.main-settings .form-table th,.main-settings-disable .form-table th{
+    width: 250px !important;
+}
+.main-settings .form-table tr td select,.main-settings-disable .form-table tr td select{
+    width: 100% !important;
+    max-width: 100%;
+}
+.form-check-input:checked[type="radio"] {
+    background: var(--bg-white) !important;
+    width: 16px;
+    border: 4px solid var(--purple);
+}
+
+
+.synk-pop-form h4{
+    background-color: #5e6871;
+    padding: 11px;
+    color: white;
+}
+.synk-main{
+    background-color: #ffffff;
+    padding: 0 10px;
+    max-width: 1000px;
+    flex-grow: 1;
+}
+.synk-container {
+    margin-top: 12px;
+    display: flex;
+}
+
+.synk-pop-form label{
+    font-style: italic;
+    margin-left: 10px;
+}
+
+
+/*sidebar*/
+.synk-sidebar{
+    margin-left: 40px;
+    background-color: #fff;
+    display: table;
+    padding: 10px 15px;
+    max-width: 315px;
+    min-width: 315px;
+    position:  relative;
+}
+.synk-pop-plugin-icon {
+    display:  table;
+    float:  left;
+}
+
+.synk-pop-plugin-icon span.dashicons {
+    font-size: 36px;
+    display:  table;
+    color: #5e6871;
+}
+
+span.synk-pop-plugin-about {
+    display:  block;
+    margin-top: 4px;
+}
+
+.synk-pop-plugin-details a {
+    padding-right: 5px;
+}
+
+li.synk-pop-plugin {
+    padding: 14px 0;
+    display:  flex;
+    align-items: center;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.synk-pop-plugin-details {
+    margin-left: 10px;
+}
+.synk-pop-plugin-head{
+    font-size: 17px;
+    display: block;
+}
+.synk-pop-head{
+    display: block;
+    font-size: 16px;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom:  7px;
+    text-transform:  uppercase;
+    font-weight:  600;
+    text-align:  left;
+}
+ul.synk-pop-list li:first-child{
+    padding-top: 0;
+}
+
+a.synk-sidebar-toggle {
+    cursor: pointer;
+    text-decoration: underline;
+    position:  absolute;
+    right: 10px;
+    top: 10px;
+}
+.synk-sidebar-show .synk-other-plugins{
+    display: none;
+}
+.synk-sidebar-show a.synk-sidebar-toggle {
+    padding:  10px;
+    position:  relative;
+    top: 0;
+    right:  0;
+}
+
+.synk-sidebar.synk-sidebar-show {
+    min-width: 50px;
+    margin-left: 10px;
+}
+
+/* End sidebar */
+
+/*** Tabs ***/
+
+.settings-tab{
+    display: none;
+}
+.settings-tab-active{
+    display: block;
+}
+
+
+
+.synk-tabs{
+    border-bottom: 1px solid #ccc;
+}
+.synk-tabs ul{
+    display: inline-block;
+    margin: 0;
+}
+.synk-tabs li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 3px;
+    background-color: #4C4C4C;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 0;
+    cursor: pointer
+}
+
+li.tab-1{
+    margin-left: 0;
+}
+.synk-tabs .active-tab{
+    background-color: #2d84d4;
+}
+/**          ***/
+
+.prem-disabled{
+    opacity: 0.9;
+    cursor: not-allowed;
+    overflow: hidden;   
+}
+
+@media only screen and (max-width: 1260px) {
+    .prem-disabled{
+        overflow: initial;
+    }
+    .synk-pop-main-settings{
+        width: 95%;
+    }
+}
+
+.synk-hero-btns{
+    display: table;
+    padding: 10px;
+    margin: 0 auto;
+}
+.synk-hero-btns a{
+    margin-right: 15px!important;
+}
+
+/* Free vs Premium */
+.synk-fvsp{
+    margin: 30px 10px;
+}
+
+.synk-fvsp-head{
+    display: table;
+    margin: 0 auto;
+    font-size: 30px;
+}
+table.synk-fvsp-table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    margin-top: 25px;
+}
+table.synk-fvsp-table td {
+    padding: 10px 20px;
+    border: 0;
+    margin: 0;
+}
+table.synk-fvsp-table th{
+    padding: 10px 20px;
+    color: #5e6871;
+    font-weight: 600;
+    font-size: 16px;
+}
+table.synk-fvsp-table th span{
+    font-size: 12px;
+}
+table.synk-fvsp-table tbody tr:nth-child(odd){
+    background-color: #f0f0f0;
+}
+.xfp-yes{
+    color: #3c763d;
+    text-align: center;
+}
+.xfp-no{
+    text-align: center;
+    color: #a94442;
+}
+.xfp-alert{
+    color: #0000ff;
+}
+
+.prem-images {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+.prem-images img{
+    width: 100%;
+}
+.prem-images h4{
+    margin: 5px;
+}
+.prem-images span{
+    font-size: 16px;
+    margin: 5px 0 10px 5px;
+    display: block;
+}
+
+.synk-pop-form table.form-table{
+    margin: 0 10px;
+}
+
+.synk-pop-form .settings-tab{
+    background-color: #fff;
+}
+.synk-pop-prem .xoo-hero-btns {
+    display: table;
+    margin: 10px auto;
+}
+/**** -- */
